@@ -5,6 +5,7 @@ import LogoGrid from './components/LogoGrid';
 import Footer from './components/Footer';
 import Canvas from './components/Canvas';
 import './assets/css/index.css';
+import SectionFrontDoor from './components/SectionFrontDoor';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       </div>
       <Hero />
       <LogoGrid />
+      <SectionFrontDoor />  
+      {/* <Footer /> */}
     </div>
   );
 }
